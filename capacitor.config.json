@@ -1,1 +1,32 @@
-ewogICJhcHBJZCI6ICJ0b3AuaXp1bmEubmNhdCIsCiAgImFwcE5hbWUiOiAi572R6aOe54yrIiwKICAiYmFja2dyb3VuZENvbG9yIjogIiMwYjBiMTAiLAogICJ3ZWJEaXIiOiAid3d3IiwKICAiaW9zIjogewogICAgImNvbnRlbnRJbnNldCI6ICJhbHdheXMiLAogICAgImxpbWl0c05hdmlnYXRpb25zVG9BcHBCb3VuZERvbWFpbnMiOiBmYWxzZSwKICAgICJwcmVmZXJyZWRDb250ZW50TW9kZSI6ICJtb2JpbGUiLAogICAgInNjcm9sbEVuYWJsZWQiOiB0cnVlCiAgfSwKICAic2VydmVyIjogewogICAgImFuZHJvaWRTY2hlbWUiOiAiaHR0cHMiLAogICAgImNsZWFydGV4dCI6IGZhbHNlLAogICAgImhvc3RuYW1lIjogImxvY2FsaG9zdCIsCiAgICAiaW9zU2NoZW1lIjogImh0dHBzIgogIH0sCiAgInBsdWdpbnMiOiB7CiAgICAiU3BsYXNoU2NyZWVuIjogewogICAgICAiYmFja2dyb3VuZENvbG9yIjogIiMwYjBiMTAiLAogICAgICAiaW9zU3Bpbm5lclN0eWxlIjogInNtYWxsIiwKICAgICAgImxhdW5jaEF1dG9IaWRlIjogdHJ1ZSwKICAgICAgImxhdW5jaFNob3dEdXJhdGlvbiI6IDYwMCwKICAgICAgInNob3dTcGlubmVyIjogZmFsc2UKICAgIH0sCiAgICAiU3RhdHVzQmFyIjogewogICAgICAiYmFja2dyb3VuZENvbG9yIjogIiMwYjBiMTAiLAogICAgICAib3ZlcmxheXNXZWJWaWV3IjogdHJ1ZSwKICAgICAgInN0eWxlIjogIkxJR0hUIgogICAgfQogIH0KfQo=
+{
+  "appId": "top.izuna.ncat",
+  "appName": "网飞猫",
+  "backgroundColor": "#0b0b10",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "always",
+    "limitsNavigationsToAppBoundDomains": false,
+    "preferredContentMode": "mobile",
+    "scrollEnabled": true
+  },
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false,
+    "hostname": "localhost",
+    "iosScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0b0b10",
+      "iosSpinnerStyle": "small",
+      "launchAutoHide": true,
+      "launchShowDuration": 600,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0b0b10",
+      "overlaysWebView": true,
+      "style": "LIGHT"
+    }
+  }
+}
