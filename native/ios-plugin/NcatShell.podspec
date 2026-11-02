@@ -1,1 +1,15 @@
-cmVxdWlyZSAnanNvbicKcGFja2FnZSA9IEpTT04ucGFyc2UoRmlsZS5yZWFkKEZpbGUuam9pbihfX2Rpcl9fLCAncGFja2FnZS5qc29uJykpKQpQb2Q6OlNwZWMubmV3IGRvIHxzfAogIHMubmFtZSA9ICdOY2F0U2hlbGwnCiAgcy52ZXJzaW9uID0gcGFja2FnZVsndmVyc2lvbiddCiAgcy5zdW1tYXJ5ID0gcGFja2FnZVsnZGVzY3JpcHRpb24nXQogIHMubGljZW5zZSA9IHBhY2thZ2VbJ2xpY2Vuc2UnXQogIHMuaG9tZXBhZ2UgPSAnaHR0cHM6Ly9naXRodWIuY29tL2N5YmVyLTgxMi9uY2F0LWlvcycKICBzLmF1dGhvciA9ICdjeWJlci04MTInCiAgcy5zb3VyY2UgPSB7IDpnaXQgPT4gJ2h0dHBzOi8vZ2l0aHViLmNvbS9jeWJlci04MTIvbmNhdC1pb3MnLCA6dGFnID0+IHMudmVyc2lvbi50b19zIH0KICBzLnNvdXJjZV9maWxlcyA9ICdpb3MvU291cmNlcy8qKi8qLntzd2lmdCxoLG0sYyxjYyxtbSxjcHB9JwogIHMuaW9zLmRlcGxveW1lbnRfdGFyZ2V0ID0gJzE1LjAnCiAgcy5kZXBlbmRlbmN5ICdDYXBhY2l0b3InCiAgcy5zd2lmdF92ZXJzaW9uID0gJzUuMScKZW5kCg==
+require 'json'
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
+Pod::Spec.new do |s|
+  s.name = 'NcatShell'
+  s.version = package['version']
+  s.summary = package['description']
+  s.license = package['license']
+  s.homepage = 'https://github.com/cyber-812/ncat-ios'
+  s.author = 'cyber-812'
+  s.source = { :git => 'https://github.com/cyber-812/ncat-ios', :tag => s.version.to_s }
+  s.source_files = 'ios/Sources/**/*.{swift,h,m,c,cc,mm,cpp}'
+  s.ios.deployment_target = '15.0'
+  s.dependency 'Capacitor'
+  s.swift_version = '5.1'
+end
