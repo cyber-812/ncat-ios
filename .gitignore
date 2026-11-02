@@ -1,1 +1,5 @@
-bm9kZV9tb2R1bGVzLwpidWlsZC8KaW9zL0FwcC9Qb2RzLwoqLmxvZwouRFNfU3RvcmUK
+node_modules/
+build/
+ios/App/Pods/
+*.log
+.DS_Store
