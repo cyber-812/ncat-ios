@@ -1,0 +1,96 @@
+name: Build NCat iOS (unsigned IPA)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ncat-build
+  cancel-in-progress: false
+
+jobs:
+  build-ipa:
+    runs-on: macos-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore binary assets from base64
+        run: |
+          find . -name "*.png.b64" | while read -r f; do
+            openssl base64 -d -in "$f" -out "${f%.b64}"
+            echo "restored ${f%.b64}"
+          done
+
+      - name: Setup Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Select latest Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Toolchain versions
+        run: |
+          xcodebuild -version
+          node --version
+          npm --version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Add iOS platform
+        run: npx cap add ios
+
+      - name: Apply Info.plist entries
+        run: bash scripts/apply-ios-plist.sh
+
+      - name: Sync iOS platform
+        run: npx cap sync ios
+
+      - name: Generate iOS assets (non-blocking)
+        run: npx @capacitor/assets generate --ios || echo "assets generation skipped/failed - committed assets remain"
+
+      - name: Build unsigned IPA
+        run: bash scripts/build-ios-unsigned.sh
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ncat-unsigned-ipa
+          path: build/NCat-unsigned.ipa
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Upload build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: build/xcodebuild.log
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Publish result to Release
+        # 只在前面全部成功时才发 Release：失败的运行不许生成一个
+        # 看起来像成品、里面却没有 IPA 的 Release（审查 Major 3）。
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p build
+          {
+            echo "ncat build run: ${{ github.run_id }} / #${{ github.run_number }}"
+            echo "build job status: ${{ job.status }}"
+            echo "appId: top.izuna.ncat"
+          } > build/ci-status.txt
+          files=(build/ci-status.txt)
+          [ -f build/NCat-unsigned.ipa ] && files+=(build/NCat-unsigned.ipa)
+          [ -f build/xcodebuild.log ] && files+=(build/xcodebuild.log)
+          tag="ncat-run-${{ github.run_number }}"
+          gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target main --title "NCat iOS unsigned IPA (run ${{ github.run_number }})" --notes "NCat shell: remote domain config + purification injection + content rules. See ci-status.txt." "${files[@]}" || gh release upload "$tag" --repo "$GITHUB_REPOSITORY" "${files[@]}" --clobber
