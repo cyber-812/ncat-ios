@@ -1,1 +1,16 @@
-ewogICJ2ZXJzaW9uIjogMSwKICAidXBkYXRlZCI6ICIyMDI2LTExLTAyIiwKICAiaGlkZVNlbGVjdG9ycyI6IFsKICAgICJhW2hyZWYqPVwiZGwubmNhdDEuYXBwXCJdIiwKICAgICJhW2hyZWYqPVwiZGwubmNhdFwiXSIsCiAgICAiLmRvd25sb2FkLWFwcCIsCiAgICAiLmFwcC1kb3dubG9hZCIsCiAgICAiI2Rvd25sb2FkQXBwIgogIF0sCiAgImJsb2NrSG9zdHMiOiBbCiAgICAiZGwubmNhdDEuYXBwIiwKICAgICJkbC5uY2F0MzMuY29tIgogIF0sCiAgInNraXBUZXh0cyI6IFsi6Lez6L+H5bm/5ZGKIiwgIui3s+i/hyIsICJTa2lwIEFkIiwgIlNraXAiXQp9Cg==
+{
+  "version": 1,
+  "updated": "2026-11-02",
+  "hideSelectors": [
+    "a[href*=\"dl.ncat1.app\"]",
+    "a[href*=\"dl.ncat\"]",
+    ".download-app",
+    ".app-download",
+    "#downloadApp"
+  ],
+  "blockHosts": [
+    "dl.ncat1.app",
+    "dl.ncat33.com"
+  ],
+  "skipTexts": ["跳过广告", "跳过", "Skip Ad", "Skip"]
+}
