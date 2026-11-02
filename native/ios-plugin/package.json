@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIm5jYXQtc2hlbGwiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAi572R6aOe54yr5aOz5Y6f55Sf5o+S5Lu277yaU2FmYXJpIFVB44CB5YeA5YyW6ISa5pys5rOo5YWl77yIYXREb2N1bWVudFN0YXJ044CB5YWo5bin77yJ44CB5bm/5ZGK5Z+f5ZCN5YaF5a655oum5oiqIiwKICAibGljZW5zZSI6ICJNSVQiLAogICJmaWxlcyI6IFsKICAgICJpb3MvU291cmNlcyIsCiAgICAiUGFja2FnZS5zd2lmdCIsCiAgICAiTmNhdFNoZWxsLnBvZHNwZWMiCiAgXSwKICAiY2FwYWNpdG9yIjogewogICAgImlvcyI6IHsKICAgICAgInNyYyI6ICJpb3MiCiAgICB9CiAgfSwKICAicGVlckRlcGVuZGVuY2llcyI6IHsKICAgICJAY2FwYWNpdG9yL2NvcmUiOiAiPj04LjAuMCIKICB9LAogICJrZXl3b3JkcyI6IFsiY2FwYWNpdG9yIiwgInBsdWdpbiIsICJuYXRpdmUiLCAiaW9zIiwgIndlYnZpZXciXQp9Cg==
+{
+  "name": "ncat-shell",
+  "version": "1.0.0",
+  "description": "网飞猫壳原生插件：Safari UA、净化脚本注入（atDocumentStart、全帧）、广告域名内容拦截",
+  "license": "MIT",
+  "files": [
+    "ios/Sources",
+    "Package.swift",
+    "NcatShell.podspec"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=8.0.0"
+  },
+  "keywords": ["capacitor", "plugin", "native", "ios", "webview"]
+}
