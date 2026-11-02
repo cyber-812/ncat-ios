@@ -1,1 +1,97 @@
-aW1wb3J0IEZvdW5kYXRpb24KaW1wb3J0IFdlYktpdAppbXBvcnQgQ2FwYWNpdG9yCgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIE5jYXRTaGVsbFBsdWdpbgovLwovLyDlo7PnmoTljp/nlJ/kvqflj6rlgZrkuInku7YgSlMg5YGa5LiN5YiwIC8g5YGa5LiN56iz55qE5LqL77yaCi8vICAgMS4g57uZIFdLV2ViVmlldyDorr7nva7lrozmlbTnmoTnnJ/lrp4gaVBob25lIFNhZmFyaSBVQe+8iOaVtOS4suimhueblu+8jOS4jei/veWKoOWQjue8gO+8jAovLyAgICAgIOS/neivgSBjZG5kZWZlbmQg6L+Z57G75rWP6KeI5Zmo6aqM6K+B55yL5Yiw55qE5oyH57q56Ieq5rS977yJ44CCCi8vICAgMi4g5oqK5YeA5YyW6ISa5pysIHB1cmlmeS5qcyDku6UgV0tVc2VyU2NyaXB0KGF0RG9jdW1lbnRTdGFydCwg5YWo5binKSDms6jlhaUg4oCU4oCUCi8vICAgICAg5b+F6aG75Zyo5paH5qGj5byA5aeL5omn6KGM77yM5omN6IO96LW25Zyo56uZ54K555qE5bm/5ZGKL+W8ueeql+iEmuacrOS5i+WJjeimhuWGmSB3aW5kb3cub3Blbu+8mwovLyAgICAgIGZvck1haW5GcmFtZU9ubHk9ZmFsc2Ug6K6p5pKt5pS+5ZmoIGlmcmFtZSDlhoXpg6jkuZ/mnInkuIDku73vvIjlkIzmupDnrZbnlaXkuIvniLbluKcKLy8gICAgICDnorDkuI3liLDot6jln58gaWZyYW1l77yM5Y+q6IO96K6p6ISa5pys5Zyo5q+P5Liq5bin6YeM5ZCE6Ieq6L+Q6KGM77yJ44CCCi8vICAgMy4g57yW6K+R5bm25oyC6L29IFdLQ29udGVudFJ1bGVMaXN077yIY29udGVudC1ydWxlcy5qc29u77yJ77yM5Zyo572R57uc5bGC55u05o6lCi8vICAgICAg5o6Q5o6J5bey55+l5bm/5ZGK5Z+f5ZCN5LiO5a6Y5pa5IEFQUCDkuIvovb3nq5nnmoTotYTmupDliqDovb3jgIIKLy8KLy8g5pe25py677ya5o+S5Lu2IGxvYWQoKSDml7YgYnJpZGdlLndlYlZpZXcg5Y+v6IO96L+Y5rKh5bCx57uq77yM55So5Li76Zif5YiX55+t6Ze06ZqU6YeN6K+V5ou/44CCCi8vIOacrCBBcHAg6aaW5Liq6aG16Z2i5piv5pys5Zyw5byV5a+86aG177yI5LiN6ZyA6KaB5rOo5YWl77yJ77yM6L+c56iL6aG16Z2i6YO95piv5ZCO57ut5a+86Iiq77yMCi8vIOWcqCBsb2FkKCkg6Zi25q616KOF5aW96ISa5pys5a+55omA5pyJ6L+c56iL6aG16Z2i6YO95p2l5b6X5Y+K44CCCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCkBvYmpjKE5jYXRTaGVsbFBsdWdpbikKcHVibGljIGNsYXNzIE5jYXRTaGVsbFBsdWdpbjogQ0FQUGx1Z2luLCBDQVBCcmlkZ2VkUGx1Z2luIHsKCiAgICBwdWJsaWMgbGV0IGlkZW50aWZpZXIgPSAiTmNhdFNoZWxsUGx1Z2luIgogICAgcHVibGljIGxldCBqc05hbWUgPSAiTmNhdFNoZWxsIgoKICAgIHB1YmxpYyBsZXQgcGx1Z2luTWV0aG9kczogW0NBUFBsdWdpbk1ldGhvZF0gPSBbCiAgICAgICAgQ0FQUGx1Z2luTWV0aG9kKG5hbWU6ICJwaW5nIiwgcmV0dXJuVHlwZTogQ0FQUGx1Z2luUmV0dXJuUHJvbWlzZSkKICAgIF0KCiAgICBwcml2YXRlIHZhciBpbnN0YWxsQXR0ZW1wdHMgPSAwCiAgICBwcml2YXRlIHZhciBpbnN0YWxsZWQgPSBmYWxzZQoKICAgIEBvYmpjIG92ZXJyaWRlIHB1YmxpYyBmdW5jIGxvYWQoKSB7CiAgICAgICAgaW5zdGFsbEludG9XZWJWaWV3KCkKICAgIH0KCiAgICBAb2JqYyBmdW5jIHBpbmcoXyBjYWxsOiBDQVBQbHVnaW5DYWxsKSB7CiAgICAgICAgY2FsbC5yZXNvbHZlKFsib2siOiB0cnVlLCAiaW5zdGFsbGVkIjogaW5zdGFsbGVkXSkKICAgIH0KCiAgICBwcml2YXRlIGZ1bmMgaW5zdGFsbEludG9XZWJWaWV3KCkgewogICAgICAgIERpc3BhdGNoUXVldWUubWFpbi5hc3luYyB7IFt3ZWFrIHNlbGZdIGluCiAgICAgICAgICAgIGd1YXJkIGxldCBzZWxmIGVsc2UgeyByZXR1cm4gfQogICAgICAgICAgICBpZiBzZWxmLmluc3RhbGxlZCB7IHJldHVybiB9CiAgICAgICAgICAgIGd1YXJkIGxldCB3ZWJWaWV3ID0gc2VsZi5icmlkZ2U/LndlYlZpZXcgZWxzZSB7CiAgICAgICAgICAgICAgICBzZWxmLmluc3RhbGxBdHRlbXB0cyArPSAxCiAgICAgICAgICAgICAgICBpZiBzZWxmLmluc3RhbGxBdHRlbXB0cyA8IDEwMCB7CiAgICAgICAgICAgICAgICAgICAgRGlzcGF0Y2hRdWV1ZS5tYWluLmFzeW5jQWZ0ZXIoZGVhZGxpbmU6IC5ub3coKSArIDAuMSkgewogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmluc3RhbGxJbnRvV2ViVmlldygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBDQVBMb2cucHJpbnQoIltOY2F0U2hlbGxdIHdlYlZpZXcgbm90IGF2YWlsYWJsZSwgaW5qZWN0aW9uIHNraXBwZWQiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2VsZi5pbnN0YWxsZWQgPSB0cnVlCgogICAgICAgICAgICAvLyAxKSBVQe+8muWujOaVtOecn+WuniBTYWZhcmkg5Liy5pW05Liy6KaG55uW44CCCiAgICAgICAgICAgIHdlYlZpZXcuY3VzdG9tVXNlckFnZW50ID0gIk1vemlsbGEvNS4wIChpUGhvbmU7IENQVSBpUGhvbmUgT1MgMjdfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMjcuMiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSIKCiAgICAgICAgICAgIGxldCBjb250cm9sbGVyID0gd2ViVmlldy5jb25maWd1cmF0aW9uLnVzZXJDb250ZW50Q29udHJvbGxlcgoKICAgICAgICAgICAgLy8gMikg5YeA5YyW6ISa5pys5rOo5YWl77yI6LWE5rqQ6ZqP5o+S5Lu25omT5YyF77yM6K+75LiN5Yiw5bCx6Lez6L+H77yM5LiN6K645bSp77yJ44CCCiAgICAgICAgICAgIGlmIGxldCB1cmwgPSBCdW5kbGUubW9kdWxlLnVybChmb3JSZXNvdXJjZTogInB1cmlmeSIsIHdpdGhFeHRlbnNpb246ICJqcyIpLAogICAgICAgICAgICAgICBsZXQgc291cmNlID0gdHJ5PyBTdHJpbmcoY29udGVudHNPZjogdXJsLCBlbmNvZGluZzogLnV0ZjgpIHsKICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIuYWRkVXNlclNjcmlwdChXS1VzZXJTY3JpcHQoCiAgICAgICAgICAgICAgICAgICAgc291cmNlOiBzb3VyY2UsCiAgICAgICAgICAgICAgICAgICAgaW5qZWN0aW9uVGltZTogLmF0RG9jdW1lbnRTdGFydCwKICAgICAgICAgICAgICAgICAgICBmb3JNYWluRnJhbWVPbmx5OiBmYWxzZQogICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIENBUExvZy5wcmludCgiW05jYXRTaGVsbF0gcHVyaWZ5LmpzIHJlc291cmNlIG1pc3NpbmciKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyAzKSDlhoXlrrnmi6bmiKrop4TliJnvvIjnvJbor5HlvILmraXvvIzoo4XkuI3kuIrkuI3lvbHlk43mtY/op4jvvInjgIIKICAgICAgICAgICAgaWYgbGV0IHVybCA9IEJ1bmRsZS5tb2R1bGUudXJsKGZvclJlc291cmNlOiAiY29udGVudC1ydWxlcyIsIHdpdGhFeHRlbnNpb246ICJqc29uIiksCiAgICAgICAgICAgICAgIGxldCBqc29uID0gdHJ5PyBTdHJpbmcoY29udGVudHNPZjogdXJsLCBlbmNvZGluZzogLnV0ZjgpIHsKICAgICAgICAgICAgICAgIFdLQ29udGVudFJ1bGVMaXN0U3RvcmUuZGVmYXVsdCgpLmNvbXBpbGVDb250ZW50UnVsZUxpc3QoCiAgICAgICAgICAgICAgICAgICAgZm9ySWRlbnRpZmllcjogIm5jYXQtY29udGVudC1ydWxlcyIsCiAgICAgICAgICAgICAgICAgICAgZW5jb2RlZENvbnRlbnRSdWxlTGlzdDoganNvbgogICAgICAgICAgICAgICAgKSB7IGxpc3QsIGVycm9yIGluCiAgICAgICAgICAgICAgICAgICAgLy8gV0tVc2VyQ29udGVudENvbnRyb2xsZXIg55qE5aKe5Yig5b+F6aG75Zyo5Li757q/56iL77yI5a6h5p+lIE1pbm9y77yJ44CCCiAgICAgICAgICAgICAgICAgICAgRGlzcGF0Y2hRdWV1ZS5tYWluLmFzeW5jIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGV0IGxpc3QgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlci5hZGQobGlzdCkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIGxldCBlcnJvciB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDQVBMb2cucHJpbnQoIltOY2F0U2hlbGxdIGNvbnRlbnQgcnVsZSBjb21waWxlIGZhaWxlZDogXChlcnJvci5sb2NhbGl6ZWREZXNjcmlwdGlvbikiKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+import Foundation
+import WebKit
+import Capacitor
+
+// ============================================================================
+// NcatShellPlugin
+//
+// 壳的原生侧只做三件 JS 做不到 / 做不稳的事：
+//   1. 给 WKWebView 设置完整的真实 iPhone Safari UA（整串覆盖，不追加后缀，
+//      保证 cdndefend 这类浏览器验证看到的指纹自洽）。
+//   2. 把净化脚本 purify.js 以 WKUserScript(atDocumentStart, 全帧) 注入 ——
+//      必须在文档开始执行，才能赶在站点的广告/弹窗脚本之前覆写 window.open；
+//      forMainFrameOnly=false 让播放器 iframe 内部也有一份（同源策略下父帧
+//      碰不到跨域 iframe，只能让脚本在每个帧里各自运行）。
+//   3. 编译并挂载 WKContentRuleList（content-rules.json），在网络层直接
+//      掐掉已知广告域名与官方 APP 下载站的资源加载。
+//
+// 时机：插件 load() 时 bridge.webView 可能还没就绪，用主队列短间隔重试拿。
+// 本 App 首个页面是本地引导页（不需要注入），远程页面都是后续导航，
+// 在 load() 阶段装好脚本对所有远程页面都来得及。
+// ============================================================================
+
+@objc(NcatShellPlugin)
+public class NcatShellPlugin: CAPPlugin, CAPBridgedPlugin {
+
+    public let identifier = "NcatShellPlugin"
+    public let jsName = "NcatShell"
+
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "ping", returnType: CAPPluginReturnPromise)
+    ]
+
+    private var installAttempts = 0
+    private var installed = false
+
+    @objc override public func load() {
+        installIntoWebView()
+    }
+
+    @objc func ping(_ call: CAPPluginCall) {
+        call.resolve(["ok": true, "installed": installed])
+    }
+
+    private func installIntoWebView() {
+        DispatchQueue.main.async { [weak self] in
+            guard let self else { return }
+            if self.installed { return }
+            guard let webView = self.bridge?.webView else {
+                self.installAttempts += 1
+                if self.installAttempts < 100 {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                        self.installIntoWebView()
+                    }
+                } else {
+                    CAPLog.print("[NcatShell] webView not available, injection skipped")
+                }
+                return
+            }
+            self.installed = true
+
+            // 1) UA：完整真实 Safari 串整串覆盖。
+            webView.customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 27_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+
+            let controller = webView.configuration.userContentController
+
+            // 2) 净化脚本注入（资源随插件打包，读不到就跳过，不许崩）。
+            if let url = Bundle.module.url(forResource: "purify", withExtension: "js"),
+               let source = try? String(contentsOf: url, encoding: .utf8) {
+                controller.addUserScript(WKUserScript(
+                    source: source,
+                    injectionTime: .atDocumentStart,
+                    forMainFrameOnly: false
+                ))
+            } else {
+                CAPLog.print("[NcatShell] purify.js resource missing")
+            }
+
+            // 3) 内容拦截规则（编译异步，装不上不影响浏览）。
+            if let url = Bundle.module.url(forResource: "content-rules", withExtension: "json"),
+               let json = try? String(contentsOf: url, encoding: .utf8) {
+                WKContentRuleListStore.default().compileContentRuleList(
+                    forIdentifier: "ncat-content-rules",
+                    encodedContentRuleList: json
+                ) { list, error in
+                    // WKUserContentController 的增删必须在主线程（审查 Minor）。
+                    DispatchQueue.main.async {
+                        if let list {
+                            controller.add(list)
+                        } else if let error {
+                            CAPLog.print("[NcatShell] content rule compile failed: \(error.localizedDescription)")
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
