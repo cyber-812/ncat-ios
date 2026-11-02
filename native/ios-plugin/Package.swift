@@ -1,1 +1,27 @@
-Ly8gc3dpZnQtdG9vbHMtdmVyc2lvbjogNS45CmltcG9ydCBQYWNrYWdlRGVzY3JpcHRpb24KCi8vIG5hbWUg5b+F6aG75Y+rIE5jYXRTaGVsbO+8mkNhcGFjaXRvciBDTEkg55Sx5o+S5Lu2IHBhY2thZ2UuanNvbiDnmoQgbmFtZe+8iG5jYXQtc2hlbGzvvIkKLy8g5o6o5a+85Ye6IGZpeE5hbWUgPSBOY2F0U2hlbGzvvIzlubbmjInmraTlkI3lhpnlhaUgQ2FwQXBwLVNQTS9QYWNrYWdlLnN3aWZ044CCCmxldCBwYWNrYWdlID0gUGFja2FnZSgKICAgIG5hbWU6ICJOY2F0U2hlbGwiLAogICAgcGxhdGZvcm1zOiBbLmlPUygudjE1KV0sCiAgICBwcm9kdWN0czogWwogICAgICAgIC5saWJyYXJ5KG5hbWU6ICJOY2F0U2hlbGwiLCB0YXJnZXRzOiBbIk5jYXRTaGVsbCJdKQogICAgXSwKICAgIGRlcGVuZGVuY2llczogWwogICAgICAgIC5wYWNrYWdlKHVybDogImh0dHBzOi8vZ2l0aHViLmNvbS9pb25pYy10ZWFtL2NhcGFjaXRvci1zd2lmdC1wbS5naXQiLCBmcm9tOiAiOC4wLjAiKQogICAgXSwKICAgIHRhcmdldHM6IFsKICAgICAgICAudGFyZ2V0KAogICAgICAgICAgICBuYW1lOiAiTmNhdFNoZWxsIiwKICAgICAgICAgICAgZGVwZW5kZW5jaWVzOiBbCiAgICAgICAgICAgICAgICAucHJvZHVjdChuYW1lOiAiQ2FwYWNpdG9yIiwgcGFja2FnZTogImNhcGFjaXRvci1zd2lmdC1wbSIpCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIHBhdGg6ICJpb3MvU291cmNlcy9OY2F0U2hlbGwiLAogICAgICAgICAgICByZXNvdXJjZXM6IFsKICAgICAgICAgICAgICAgIC5jb3B5KCJwdXJpZnkuanMiKSwKICAgICAgICAgICAgICAgIC5jb3B5KCJjb250ZW50LXJ1bGVzLmpzb24iKQogICAgICAgICAgICBdKQogICAgXQopCg==
+// swift-tools-version: 5.9
+import PackageDescription
+
+// name 必须叫 NcatShell：Capacitor CLI 由插件 package.json 的 name（ncat-shell）
+// 推导出 fixName = NcatShell，并按此名写入 CapApp-SPM/Package.swift。
+let package = Package(
+    name: "NcatShell",
+    platforms: [.iOS(.v15)],
+    products: [
+        .library(name: "NcatShell", targets: ["NcatShell"])
+    ],
+    dependencies: [
+        .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", from: "8.0.0")
+    ],
+    targets: [
+        .target(
+            name: "NcatShell",
+            dependencies: [
+                .product(name: "Capacitor", package: "capacitor-swift-pm")
+            ],
+            path: "ios/Sources/NcatShell",
+            resources: [
+                .copy("purify.js"),
+                .copy("content-rules.json")
+            ])
+    ]
+)
