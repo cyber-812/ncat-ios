@@ -1,1 +1,32 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBhcHBseS1pb3MtcGxpc3Quc2gg4oCUIENJIOWcqCBjYXAgYWRkIGlvcyDkuYvlkI7jgIFjYXAgc3luYyDkuYvliY3miafooYzvvIwKIyDnu5nnlJ/miJDnmoQgSW5mby5wbGlzdCDmiZPkuIrlo7PpnIDopoHnmoTmnaHnm67vvIjku5PlupPkuI3mj5DkuqQgaW9zLyDmoJHvvIzlhajpg6jnjrDlnLrnlJ/miJDvvInvvJoKIyAgIC0gQVRTIOaUvuihjOS7u+aEj+WKoOi9ve+8iOi/meexu+ermeeahOeJh+a6kOWkp+mHj+aYryBodHRw77yM5LiN5pS+6KGM55u05o6l6buR5bGP77yJCiMgICAtIOaWueWQke+8muerluWxjyArIOW3puWPs+aoquWxj++8iOeci+eJh+imgeiDveaoqui/h+adpe+8iQojIOS7hSBtYWNPU++8iOeUqOezu+e7n+iHquW4piBQbGlzdEJ1ZGR577yJ44CCCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpzZXQgLWV1byBwaXBlZmFpbAoKUExJU1Q9Imlvcy9BcHAvQXBwL0luZm8ucGxpc3QiClBCPS91c3IvbGliZXhlYy9QbGlzdEJ1ZGR5CgppZiBbICEgLWYgIiR7UExJU1R9IiBdOyB0aGVuCiAgZWNobyAibWlzc2luZyAke1BMSVNUfSAtIHJ1biBucHggY2FwIGFkZCBpb3MgZmlyc3QiID4mMgogIGV4aXQgMQpmaQoKIiR7UEJ9IiAtYyAiRGVsZXRlIDpOU0FwcFRyYW5zcG9ydFNlY3VyaXR5IiAiJHtQTElTVH0iIDI+L2Rldi9udWxsIHx8IHRydWUKIiR7UEJ9IiAtYyAiQWRkIDpOU0FwcFRyYW5zcG9ydFNlY3VyaXR5IGRpY3QiICIke1BMSVNUfSIKIiR7UEJ9IiAtYyAiQWRkIDpOU0FwcFRyYW5zcG9ydFNlY3VyaXR5Ok5TQWxsb3dzQXJiaXRyYXJ5TG9hZHMgYm9vbCB0cnVlIiAiJHtQTElTVH0iCgpmb3Iga2V5IGluICJVSVN1cHBvcnRlZEludGVyZmFjZU9yaWVudGF0aW9uc35pcGhvbmUiICJVSVN1cHBvcnRlZEludGVyZmFjZU9yaWVudGF0aW9uc35pcGFkIjsgZG8KICAiJHtQQn0iIC1jICJEZWxldGUgOiR7a2V5fSIgIiR7UExJU1R9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgIiR7UEJ9IiAtYyAiQWRkIDoke2tleX0gYXJyYXkiICIke1BMSVNUfSIKICAiJHtQQn0iIC1jICJBZGQgOiR7a2V5fTowIHN0cmluZyBVSUludGVyZmFjZU9yaWVudGF0aW9uUG9ydHJhaXQiICIke1BMSVNUfSIKICAiJHtQQn0iIC1jICJBZGQgOiR7a2V5fToxIHN0cmluZyBVSUludGVyZmFjZU9yaWVudGF0aW9uTGFuZHNjYXBlTGVmdCIgIiR7UExJU1R9IgogICIke1BCfSIgLWMgIkFkZCA6JHtrZXl9OjIgc3RyaW5nIFVJSW50ZXJmYWNlT3JpZW50YXRpb25MYW5kc2NhcGVSaWdodCIgIiR7UExJU1R9Igpkb25lCgplY2hvICJwbGlzdCBhcHBsaWVkOiIKIiR7UEJ9IiAtYyAiUHJpbnQgOk5TQXBwVHJhbnNwb3J0U2VjdXJpdHkiICIke1BMSVNUfSIK
+#!/usr/bin/env bash
+# ============================================================================
+# apply-ios-plist.sh — CI 在 cap add ios 之后、cap sync 之前执行，
+# 给生成的 Info.plist 打上壳需要的条目（仓库不提交 ios/ 树，全部现场生成）：
+#   - ATS 放行任意加载（这类站的片源大量是 http，不放行直接黑屏）
+#   - 方向：竖屏 + 左右横屏（看片要能横过来）
+# 仅 macOS（用系统自带 PlistBuddy）。
+# ============================================================================
+set -euo pipefail
+
+PLIST="ios/App/App/Info.plist"
+PB=/usr/libexec/PlistBuddy
+
+if [ ! -f "${PLIST}" ]; then
+  echo "missing ${PLIST} - run npx cap add ios first" >&2
+  exit 1
+fi
+
+"${PB}" -c "Delete :NSAppTransportSecurity" "${PLIST}" 2>/dev/null || true
+"${PB}" -c "Add :NSAppTransportSecurity dict" "${PLIST}"
+"${PB}" -c "Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true" "${PLIST}"
+
+for key in "UISupportedInterfaceOrientations~iphone" "UISupportedInterfaceOrientations~ipad"; do
+  "${PB}" -c "Delete :${key}" "${PLIST}" 2>/dev/null || true
+  "${PB}" -c "Add :${key} array" "${PLIST}"
+  "${PB}" -c "Add :${key}:0 string UIInterfaceOrientationPortrait" "${PLIST}"
+  "${PB}" -c "Add :${key}:1 string UIInterfaceOrientationLandscapeLeft" "${PLIST}"
+  "${PB}" -c "Add :${key}:2 string UIInterfaceOrientationLandscapeRight" "${PLIST}"
+done
+
+echo "plist applied:"
+"${PB}" -c "Print :NSAppTransportSecurity" "${PLIST}"
