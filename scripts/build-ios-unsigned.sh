@@ -1,1 +1,82 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBidWlsZC1pb3MtdW5zaWduZWQuc2gg4oCUIOe8luivkeacquetvuWQjSBJUEHvvIjku4UgbWFjT1MgLyBDSSDlj6/ov5DooYzvvIkKIyDkuqfnianvvJo85LuT5bqT5qC5Pi9idWlsZC9OQ2F0LXVuc2lnbmVkLmlwYQojIOWJjee9ru+8mm5weCBjYXAgc3luYyBpb3Mg5bey5omn6KGM44CCCiMg5rK/55SoIEZvbGlhIOa1geawtOe6v+mqjOivgei/h+eahOaJk+azle+8mgojICAgLSDlhajnqIvnu53lr7not6/lvoTjgIHlj5jph4/kuIDlvosgJHt2YXJ977yI6ZiyIFVURi04IOWtl+iKguiiq+WQnui/m+WPmOmHj+WQje+8iQojICAgLSBDYXBhY2l0b3IgOCDmmK8gU1BNIOaooeW8j++8jOeUqCAtcHJvamVjdCDkuI3nlKggLXdvcmtzcGFjZQojICAgLSAtc2NoZW1lIOaJjeiDvemFjSAtZGVyaXZlZERhdGFQYXRo77yb5aSx6LSl6Ieq5Yqo6ZmN57qn6buY6K6kIERlcml2ZWREYXRhIOWGjeivlQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0Kc2V0IC1ldW8gcGlwZWZhaWwKClNDUklQVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKSIgJiYgcHdkKSIKUk9PVF9ESVI9IiQoY2QgIiR7U0NSSVBUX0RJUn0vLi4iICYmIHB3ZCkiClBST0pFQ1RfRElSPSIke1JPT1RfRElSfS9pb3MvQXBwIgpYQ09ERVBST0o9IiR7UFJPSkVDVF9ESVJ9L0FwcC54Y29kZXByb2oiCk9VVF9ESVI9IiR7Uk9PVF9ESVJ9L2J1aWxkIgpBUFBfTkFNRT0iQXBwIgpJUEFfTkFNRT0iTkNhdC11bnNpZ25lZC5pcGEiCkJVSUxEX0xPRz0iJHtPVVRfRElSfS94Y29kZWJ1aWxkLmxvZyIKCmlmICEgY29tbWFuZCAtdiB4Y29kZWJ1aWxkID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGVjaG8gInhjb2RlYnVpbGQgbm90IGZvdW5kIC0gbWFjT1Mgb25seSIgPiYyCiAgZXhpdCAxCmZpCmlmIFsgISAtZiAiJHtYQ09ERVBST0p9L3Byb2plY3QucGJ4cHJvaiIgXTsgdGhlbgogIGVjaG8gIm1pc3NpbmcgJHtYQ09ERVBST0p9IC0gcnVuIG5weCBjYXAgc3luYyBpb3MgZmlyc3QiID4mMgogIGV4aXQgMQpmaQoKbWtkaXIgLXAgIiR7T1VUX0RJUn0iCgpTSUdOX0ZMQUdTPSgKICBDT0RFX1NJR05JTkdfQUxMT1dFRD1OTwogIENPREVfU0lHTklOR19SRVFVSVJFRD1OTwogIENPREVfU0lHTl9JREVOVElUWT0iIgogIENPREVfU0lHTklOR19FTlRJVExFTUVOVFM9IiIKKQpCQVNFX0ZMQUdTPSgKICAtcHJvamVjdCAiJHtYQ09ERVBST0p9IgogIC1jb25maWd1cmF0aW9uIFJlbGVhc2UKICAtc2RrIGlwaG9uZW9zCiAgIiR7U0lHTl9GTEFHU1tAXX0iCikKCiMgeGNvZGVidWlsZCDnmoTmiJDotKXlv4XpobvnnIsgUElQRVNUQVRVU1swXe+8mueuoemBk+mAgOWHuueggem7mOiupOaYr+acgOWQjuS4gOS4quWRveS7pO+8iHRlZe+8ieeahO+8jAojIOWPqumdoCBzZXQgLW8gcGlwZWZhaWwg55qE6ZqQ5byP6KGM5Li65aSq6ISG77yM5pi+5byP5Y+W54q25oCB77yI5a6h5p+lIE1pbm9y77yJ44CCCnJ1bl9idWlsZCgpIHsKICBzZXQgK2UKICB4Y29kZWJ1aWxkICIkQCIgMj4mMSB8IHRlZSAiJHtCVUlMRF9MT0d9IgogIGxvY2FsIHN0YXR1cz0ke1BJUEVTVEFUVVNbMF19CiAgc2V0IC1lCiAgcmV0dXJuICIke3N0YXR1c30iCn0KCkFQUF9QQVRIPSIiCmlmIHJ1bl9idWlsZCAiJHtCQVNFX0ZMQUdTW0BdfSIgLXNjaGVtZSAiJHtBUFBfTkFNRX0iIFwKICAgIC1kZXJpdmVkRGF0YVBhdGggIiR7T1VUX0RJUn0vZGVyaXZlZCIgXAogICAgLWNsb25lZFNvdXJjZVBhY2thZ2VzRGlyUGF0aCAiJHtPVVRfRElSfS9zcG0iIFwKICAgIGJ1aWxkOyB0aGVuCiAgQVBQX1BBVEg9IiR7T1VUX0RJUn0vZGVyaXZlZC9CdWlsZC9Qcm9kdWN0cy9SZWxlYXNlLWlwaG9uZW9zLyR7QVBQX05BTUV9LmFwcCIKZWxzZQogIGVjaG8gInNjaGVtZStkZXJpdmVkRGF0YSBmYWlsZWQsIHJldHJ5IHdpdGggZGVmYXVsdCBEZXJpdmVkRGF0YSIKICBpZiBydW5fYnVpbGQgIiR7QkFTRV9GTEFHU1tAXX0iIC1zY2hlbWUgIiR7QVBQX05BTUV9IiBidWlsZDsgdGhlbgogICAgQVBQX1BBVEg9IiQoZmluZCAiJHtIT01FfS9MaWJyYXJ5L0RldmVsb3Blci9YY29kZS9EZXJpdmVkRGF0YSIgLW1heGRlcHRoIDYgLXBhdGggIioke0FQUF9OQU1FfS0qL0J1aWxkL1Byb2R1Y3RzL1JlbGVhc2UtaXBob25lb3MvJHtBUFBfTkFNRX0uYXBwIiAyPi9kZXYvbnVsbCB8IGhlYWQgLTEpIgogIGZpCmZpCgppZiBbIC16ICIke0FQUF9QQVRIfSIgXSB8fCBbICEgLWQgIiR7QVBQX1BBVEh9IiBdOyB0aGVuCiAgZWNobyAiQlVJTEQgRkFJTEVEIC0gYXBwIGJ1bmRsZSBub3QgZm91bmQiID4mMgogIHRhaWwgLTQwICIke0JVSUxEX0xPR30iID4mMiB8fCB0cnVlCiAgZXhpdCAxCmZpCgplY2hvICJhcHAgYnVuZGxlOiAke0FQUF9QQVRIfSIKcm0gLXJmICIke09VVF9ESVJ9L1BheWxvYWQiICIke09VVF9ESVJ9LyR7SVBBX05BTUV9Igpta2RpciAtcCAiJHtPVVRfRElSfS9QYXlsb2FkIgpjcCAtYSAiJHtBUFBfUEFUSH0iICIke09VVF9ESVJ9L1BheWxvYWQvIgooIGNkICIke09VVF9ESVJ9IiAmJiB6aXAgLXFyeSAiJHtJUEFfTkFNRX0iIFBheWxvYWQgKQpybSAtcmYgIiR7T1VUX0RJUn0vUGF5bG9hZCIKbHMgLWxhICIke09VVF9ESVJ9LyR7SVBBX05BTUV9IgplY2hvICJJUEEgT0s6ICR7T1VUX0RJUn0vJHtJUEFfTkFNRX0iCg==
+#!/usr/bin/env bash
+# ============================================================================
+# build-ios-unsigned.sh — 编译未签名 IPA（仅 macOS / CI 可运行）
+# 产物：<仓库根>/build/NCat-unsigned.ipa
+# 前置：npx cap sync ios 已执行。
+# 沿用 Folia 流水线验证过的打法：
+#   - 全程绝对路径、变量一律 ${var}（防 UTF-8 字节被吞进变量名）
+#   - Capacitor 8 是 SPM 模式，用 -project 不用 -workspace
+#   - -scheme 才能配 -derivedDataPath；失败自动降级默认 DerivedData 再试
+# ============================================================================
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+PROJECT_DIR="${ROOT_DIR}/ios/App"
+XCODEPROJ="${PROJECT_DIR}/App.xcodeproj"
+OUT_DIR="${ROOT_DIR}/build"
+APP_NAME="App"
+IPA_NAME="NCat-unsigned.ipa"
+BUILD_LOG="${OUT_DIR}/xcodebuild.log"
+
+if ! command -v xcodebuild >/dev/null 2>&1; then
+  echo "xcodebuild not found - macOS only" >&2
+  exit 1
+fi
+if [ ! -f "${XCODEPROJ}/project.pbxproj" ]; then
+  echo "missing ${XCODEPROJ} - run npx cap sync ios first" >&2
+  exit 1
+fi
+
+mkdir -p "${OUT_DIR}"
+
+SIGN_FLAGS=(
+  CODE_SIGNING_ALLOWED=NO
+  CODE_SIGNING_REQUIRED=NO
+  CODE_SIGN_IDENTITY=""
+  CODE_SIGNING_ENTITLEMENTS=""
+)
+BASE_FLAGS=(
+  -project "${XCODEPROJ}"
+  -configuration Release
+  -sdk iphoneos
+  "${SIGN_FLAGS[@]}"
+)
+
+# xcodebuild 的成败必须看 PIPESTATUS[0]：管道退出码默认是最后一个命令（tee）的，
+# 只靠 set -o pipefail 的隐式行为太脆，显式取状态（审查 Minor）。
+run_build() {
+  set +e
+  xcodebuild "$@" 2>&1 | tee "${BUILD_LOG}"
+  local status=${PIPESTATUS[0]}
+  set -e
+  return "${status}"
+}
+
+APP_PATH=""
+if run_build "${BASE_FLAGS[@]}" -scheme "${APP_NAME}" \
+    -derivedDataPath "${OUT_DIR}/derived" \
+    -clonedSourcePackagesDirPath "${OUT_DIR}/spm" \
+    build; then
+  APP_PATH="${OUT_DIR}/derived/Build/Products/Release-iphoneos/${APP_NAME}.app"
+else
+  echo "scheme+derivedData failed, retry with default DerivedData"
+  if run_build "${BASE_FLAGS[@]}" -scheme "${APP_NAME}" build; then
+    APP_PATH="$(find "${HOME}/Library/Developer/Xcode/DerivedData" -maxdepth 6 -path "*${APP_NAME}-*/Build/Products/Release-iphoneos/${APP_NAME}.app" 2>/dev/null | head -1)"
+  fi
+fi
+
+if [ -z "${APP_PATH}" ] || [ ! -d "${APP_PATH}" ]; then
+  echo "BUILD FAILED - app bundle not found" >&2
+  tail -40 "${BUILD_LOG}" >&2 || true
+  exit 1
+fi
+
+echo "app bundle: ${APP_PATH}"
+rm -rf "${OUT_DIR}/Payload" "${OUT_DIR}/${IPA_NAME}"
+mkdir -p "${OUT_DIR}/Payload"
+cp -a "${APP_PATH}" "${OUT_DIR}/Payload/"
+( cd "${OUT_DIR}" && zip -qry "${IPA_NAME}" Payload )
+rm -rf "${OUT_DIR}/Payload"
+ls -la "${OUT_DIR}/${IPA_NAME}"
+echo "IPA OK: ${OUT_DIR}/${IPA_NAME}"
